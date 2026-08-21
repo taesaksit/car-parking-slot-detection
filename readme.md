@@ -26,7 +26,7 @@ Real-time parking slot occupancy detection system using YOLO OBB and OpenCV.
 ![Training Results](results.png)
 ![YOLo Results](result-detected.png)
 
-
+[![YOLO Detection Demo](https://img.youtube.com/vi/AGb9QHHth04/maxresdefault.jpg)](https://youtu.be/AGb9QHHth04)
 
 
 
