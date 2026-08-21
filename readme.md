@@ -28,7 +28,7 @@ Real-time parking slot occupancy detection system using YOLO OBB and OpenCV.
 
 ## Output Preview / ตัวอย่างผลลัพธ์วิดีโอ
 <video width="600" controls>
-  <source src="output_parking.mp4" type="video/mp4">
+  <source src="carparking-output.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
