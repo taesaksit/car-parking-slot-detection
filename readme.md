@@ -1,7 +1,8 @@
 # YOLO Parking Slot Detection
-
 Real-time parking slot occupancy detection system using YOLO OBB and OpenCV.  
 ระบบตรวจจับและนับจำนวนที่จอดรถแบบเรียลไทม์ด้วย YOLO OBB และ OpenCV
+
+#### Demo: https://youtu.be/AGb9QHHth04?si=ldsbL6ty-3ndCXaY
 
 ---
 
@@ -25,9 +26,6 @@ Real-time parking slot occupancy detection system using YOLO OBB and OpenCV.
 ## Training Results / ผลลัพธ์การ Train
 ![Training Results](results.png)
 ![YOLo Results](result-detected.png)
-
-[![YOLO Detection Demo](https://img.youtube.com/vi/AGb9QHHth04/maxresdefault.jpg)](https://youtu.be/AGb9QHHth04)
-
 
 
 
