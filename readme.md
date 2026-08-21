@@ -1,4 +1,4 @@
-# YOLO Parking Slot 
+# YOLO Parking Slot Detection
 
 Real-time parking slot occupancy detection system using YOLO OBB and OpenCV.  
 ระบบตรวจจับและนับจำนวนที่จอดรถแบบเรียลไทม์ด้วย YOLO OBB และ OpenCV
