@@ -76,6 +76,7 @@ def main(model_path, json_path, video_path, output_path):
 
             for box in car_boxes:
                 pts = np.array(box, dtype=np.float32)
+                # center ของ parking slot อยู่ภายใน polygon 
                 result = cv2.pointPolygonTest(pts, (float(cx), float(cy)), False)
                 if result >= 0:
                     is_occupied = True
