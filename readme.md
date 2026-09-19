@@ -1,34 +1,15 @@
 # YOLO Parking Slot Detection
 Real-time parking slot occupancy detection system using YOLO OBB and OpenCV.  
-ระบบตรวจจับและนับจำนวนที่จอดรถแบบเรียลไทม์ด้วย YOLO OBB และ OpenCV
-
 #### Demo: https://youtu.be/AGb9QHHth04?si=ldsbL6ty-3ndCXaY
-
 ---
-
 ## Workflow / ขั้นตอนการทำงาน
-1. **Label data from CVAT:** ทำการตีเส้นกรอบข้อมูลภาพ (Annotation) ด้วย CVAT
-2. **Create spot center:** กำหนดจุดศูนย์กลางพิกัดของแต่ละช่องจอด
-3. **Train model:** ฝึกสอนโมเดล YOLO OBB สำหรับตรวจจับรถ
-
+1. **Label data from CVAT**
+2. **Create spot center** 
+3. **Train model** 
 ---
-
-## Concepts / แนวคิดหลักของโปรเจค
-
-* **OBB (Oriented Bounding Box):**  
-  กรอบสี่เหลี่ยมแบบเอียงได้ (แตกต่างจากกรอบแนวนอนทั่วไป) ช่วยให้สามารถตรวจจับรถที่จอดเอียงตามแนวช่องจอดได้อย่างแม่นยำ ไม่ซ้อนทับกันเกินความจำเป็น
-
-* **Center Spot Concept:**  
-  แนวคิดในการตรวจสอบสถานะช่องจอด โดยการบันทึกพิกัดจุดศูนย์กลาง (`center`) ของแต่ละช่องจอด แล้วใช้ฟังก์ชันทางเรขาคณิตตรวจสอบว่า มีกรอบพิกัดของรถคันใดมาทับจุดศูนย์กลางนั้นหรือไม่ หากมีแสดงว่าไม่ว่าง (Occupied) หากไม่มีแสดงว่าว่าง (Available)
-
----
-
-## Training Results / ผลลัพธ์การ Train
+## Training Results
 ![Training Results](results.png)
 ![YOLo Results](result-detected.png)
-
-
-
 
 ## Folder Structure
 ``` 📦 YOLO Parking Space Detector
